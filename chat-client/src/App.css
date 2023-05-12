@@ -11,12 +11,6 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
 @keyframes logo-spin {
   from {
@@ -37,16 +31,12 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
-
 .card {
-  background-color: #e0e6d2;
+  background-color: #d3e7a3;
   border-radius: 2%;
   border-width: 20px;
   margin: auto;
-  padding: 5%;
+  padding: 3%;
   align-self: center;
   width: fit-content;
   margin-top: 7%;
@@ -56,6 +46,7 @@
   background-color: #64ff6eaa;
   border-radius: 5%;
   align-self: center;
+  margin: auto;
 }
 
 .auth {
@@ -63,8 +54,7 @@
   padding: 10%;
 }
 
-
-.chatbox{
+.chatbox {
   height: 70vh;
   align-self: center;
   padding: 1%;
@@ -72,11 +62,11 @@
   background-color: #64238f1e;
   margin-top: 5%;
   margin-bottom: 5%;
-  margin-left:  5%;
-  margin-right:  5%;
+  margin-left: 5%;
+  margin-right: 5%;
   color: #42718a;
 }
 
-.innerchatbox{
+.innerchatbox {
   background-color: #42718a;
 }
