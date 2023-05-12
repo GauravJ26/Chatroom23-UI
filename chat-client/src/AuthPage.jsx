@@ -5,7 +5,7 @@ const AuthPage = (props) => {
       e.preventDefault();
       const { value } = e.target[0];
 
-axios.post('http://localhost:3001/authenticate', 
+axios.post( `https://chatroom23.onrender.com/authenticate`,
                               // for localhost testing use this url 'http://localhost:3001/authenticate', 
 //     `https://chatroom23.onrender.com/authenticate`,
 {username: value }
